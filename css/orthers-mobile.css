@@ -1,0 +1,187 @@
+@media (max-width: 1024px)
+{
+    
+.header{
+    width: 100%;
+    height: 53px;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.left{
+    width: 60%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left .logo{
+    display: none;
+    height: 60%;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.list-mobile{
+    display: block;
+    width: auto;
+    font-size: 20px;
+    line-height: 200%;
+    margin-left: 2%;
+}
+
+.list-choose{
+    width: 70%;
+    padding-left: 0;
+}
+
+
+
+.list-choose li{
+    display: block;
+    font-size: 20px;
+    position: relative;
+}
+
+.list-choose li a {
+    width: 50%;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 20px;
+}
+
+.list-choose > li:hover{
+    /* width:30%; */
+    background-color: #ccc;
+}
+
+.list-choose li:hover .list-collection{
+    display: inline-block;
+}
+
+.list-collection{
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding-left: 0;
+    box-shadow: 0 0 0;
+}
+
+.list-collection li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0;     
+    padding: 0 20px 0 0;
+}
+
+.list-collection li:hover{
+    background-color: #ccc;
+
+}
+
+.option-clothes >a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.right{
+    width: 40%;
+}
+
+.list-right{
+    margin-left: 50%;
+    width: 60%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.choose-right{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.choose-right >a{
+    color: black;
+}
+
+.body{
+    margin-top: 10%;
+    width: 100%;
+    height: 300%;
+}
+
+.content-product{
+    height: 25%;
+    width: 100%;
+    font-size: 13px;
+}
+
+.t-shirt{
+    width: 30%;
+    height: 100%;
+    margin: 0 4% 2% 4%;
+    border: 1px solid #000;
+}
+.list-t-shirt{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+}
+
+@media (max-width: 500px) {
+
+    .body{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    
+.t-shirt{
+    width: 25%;
+    height: 100%;
+    /* margin: 0 4% 2% 4%; */
+    border: 1px solid #000;
+}
+.list-t-shirt{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.content-product{
+    height: 25%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.list-right{
+    margin-left: 10%;
+    width: 70%;
+    height: 100%;
+    margin-top: 2%;
+}
+.choose-right{
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 20px;
+}
+}

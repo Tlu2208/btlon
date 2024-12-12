@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <link rel="stylesheet" href="../css/signIn-moobile.css">
+    <link rel="stylesheet" href="../bootstrap and jqury/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap and jqury/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../bootstrap and jqury/js/jquery-3.7.1.min.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="table-signup">
+            <div class="title">
+                <h1>fashion-shop</h1>
+                <p>Sign in or sign-up if you don't have account</p>
+            </div>
+            <div class="sign-up">
+                <form action="../html/register.html">
+                    <input id="UserName" class="account" type="text" placeholder="Email or phone number">
+                    <br>
+                    <input id="Password" class="account" type="text" placeholder="Password">
+                    <br>
+                    <button class="push-sign-in" type="button" onclick="login()">Sign-in</button>
+                    <br>
+                    <a class="forgot-password" href=""><p>forgot password</p></a>
+                    <hr>
+                    <input type="button" onclick="window.location.href = 'register.html' " class="push-sign-up" value="Sign up">
+                </form>
+                <p id="message" style="font-size: 20px;"></p>
+            </div>
+            <div class="note-web"></div>
+        </div>
+    </div>
+
+    <script src="../script/signIn.js"></script>
+</body>
+</html>

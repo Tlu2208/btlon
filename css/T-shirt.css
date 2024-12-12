@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header{
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0  5px rgba(0, 0, 0, 0.3);
+}
+
+.left{
+    width: 60%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.list-mobile{
+    display: none;
+    height: 100%;
+    width: 5%;
+    font-size: 20px;
+    line-height: 200%;
+    margin-left: 2%;
+}
+
+.left .logo{
+    height: 60%;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.list-choose{
+    width: 70%;
+}
+
+.list-choose li{
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+
+.list-choose li a {
+    line-height: 53px;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+.list-choose > li:hover{
+    background-color: #ccc;
+}
+
+.list-choose li:hover .list-collection{
+    display: block;
+}
+
+.list-collection{
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding-left: 0;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.3);
+}
+
+.list-collection li{
+    display: block;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.list-collection li:hover{
+    background-color: #ccc;
+
+}
+
+.option-clothes >a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.right{
+    width: 30%;
+}
+
+.list-right{
+    margin-left: 90%;
+    width: 60%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.choose-right{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.choose-right >a{
+    color: black;
+}
+
+.body{
+    margin-top: 10%;
+    width: 100%;
+    height: 200%;
+}
+
+.list-t-shirt{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.t-shirt{
+    width: 25%;
+    height: 100%;
+    margin: 0 4% 2% 4%;
+    border: 1px solid #000;
+}
+
+.t-shirt a{
+    width: 100%;
+    height: 80%;
+}
+
+.t-shirt img{
+    width: 100%;
+    height: 75%;
+}
+
+.content-product{
+    height: 25%;
+    width: 100%;
+    font-size: 15px;
+}
+
+.content-product .colorchip{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 5px;
+
+}
+
+.content-product p{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.t-shirt a{
+    text-decoration: none;
+    color: #000;
+}
+
+.t-shirt a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.mini-black{
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid #000;
+    height: 10%;
+}
+
+.note-footer{
+    margin-left: 50%;
+    margin-bottom: 0;
+}
+
+.list-contact{
+    margin-left: 49.5%;
+}
+
+.contact-footer{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #2f3539;
+}

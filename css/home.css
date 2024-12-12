@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header{
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0  5px rgba(0, 0, 0, 0.3);
+}
+
+.left{
+    width: 60%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.list-mobile{
+    display: none;
+    height: 100%;
+    width: 5%;
+    font-size: 20px;
+    line-height: 200%;
+    margin-left: 2%;
+}
+
+.left .logo{
+    height: 60%;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.list-choose{
+    width: 70%;
+}
+
+.list-choose li{
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+
+.list-choose li a {
+    line-height: 53px;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+.list-choose > li:hover{
+    background-color: #ccc;
+}
+
+.list-choose li:hover .list-collection{
+    display: block;
+}
+
+.list-collection{
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding-left: 0;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.3);
+}
+
+.list-collection li{
+    display: block;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.list-collection li:hover{
+    background-color: #ccc;
+
+}
+
+.option-clothes >a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.right{
+    width: 30%;
+}
+
+.list-right{
+    margin-left: 90%;
+    width: 60%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.choose-right{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.choose-right >a{
+    color: black;
+}
+
+
+.body{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/home_slider_image_1.webp);
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid #000;
+    height: 10%;
+}
+
+.note-footer{
+    margin-left: 50%;
+    margin-bottom: 0;
+}
+
+.list-contact{
+    margin-left: 49.5%;
+}
+
+.contact-footer{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #2f3539;
+}
+
